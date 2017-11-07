@@ -15,7 +15,10 @@ public class test_1 extends JFrame {
         screenH = dim.height;
         this.setBounds(screenW/2-frmW/2,screenH/2-frmH/2,frmW,frmH);
         cp =this.getContentPane();
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jlname.setHorizontalAlignment(JLabel.CENTER);
+        jlname.setBackground(Color.CYAN);
+        jlname.setOpaque(true);
         cp.add(jlname);
 
 
